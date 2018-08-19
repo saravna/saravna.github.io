@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(log.jpg);
+	background-size: cover;
+	font-family: sans-serif; 
+}
+.heading {
+	margin: 10px calc(50%);
+}
+.heading h1 {
+	font-weight: bold;
+	font-family: sans-serif;
+	color: darkgreen;
+}
+.map {
+	margin: 50px calc(25%);
+}
+div.logo {
+	margin: 0px auto;
+	width:1000px;
+}
+.logo {
+	background-image: url(logo.jpg) ;
+	background-size: cover;
+	background-position: 50% 50%;
+	height:130px;
+	width: 100px;
+}
+
+.title>h1 {
+	text-align: center;
+	margin: 25px 0px 25px 0px;
+	color: darkgreen;
+}
+.container {
+	height: 700px;
+	width: 1000px;
+	background-color: #fff;
+	margin:auto;
+}
+
+.container {
+	padding: 100px;
+	left :40%;
+	font-size: 20px;
+}
+
+.list {
+	margin: 20px; 
+}
+
+input[type="submit"] {
+	width:60%;
+	border: none;
+	margin-top: 25px;
+	outline: none;
+	background-color: yellow;
+	font-size: 20px;
+	border-radius: 15px;
+	align-self: 
+}
+
+input[type="submit"]:hover {
+	background-color: green;
+	cursor: pointer;
+}

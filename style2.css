@@ -14,7 +14,7 @@ body {
 	color: darkgreen;
 }
 .map {
-	margin: 50px calc(25%);
+	margin: 50px calc(50% - 450px);
 }
 div.logo {
 	margin: 0px auto;
@@ -58,7 +58,7 @@ input[type="submit"] {
 	background-color: yellow;
 	font-size: 20px;
 	border-radius: 15px;
-	align-self: 
+	
 }
 
 input[type="submit"]:hover {

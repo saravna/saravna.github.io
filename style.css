@@ -4,6 +4,8 @@ body {
 	background-image: url(log.jpg);
 	background-size: cover;
 	font-family: sans-serif; 
+	background-position: center;
+	background-attachment: fixed;
 }
 div.logo {
 	margin: 0px auto;
@@ -28,7 +30,7 @@ div.logo {
 	padding: 55px;
 	width:420px;
 	height: 420px;
-	background: #EAFC00;
+	background: rgba(0,255,0,0.1);
 	top: 50%;
 	left:50%;
 	position: absolute;

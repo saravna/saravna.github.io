@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(log.jpg);
+	background : linear-gradient(to bottom , yellow, green);
 	background-size: cover;
 	font-family: sans-serif; 
 	background-position: center;
@@ -30,7 +30,7 @@ div.logo {
 	margin-top: 100px;
 	padding: 55px;
 	width:420px;
-	height: 420px;
+	height: 480px;
 	background: rgba(0,255,0,0.1);
 	top: 50%;
 	left:50%;
@@ -39,7 +39,7 @@ div.logo {
 	box-sizing: border-box;
 	border: 1px solid darkgreen;
 }
-.loginbox>h1 {
+.loginbox>h1 , .signup>h1{
 	text-align: center;
 	color: darkgreen;
 }
@@ -58,7 +58,9 @@ div.logo {
 	opacity: 0.4;
 }
 
-.loginbox input[type="text"],.loginbox input[type="password"] {
+.loginbox input[type="text"],.loginbox input[type="password"] ,
+.signup input[type="text"], .signup input[type="password"], .signup input[type="email"],
+.signup input[type="date"]{
 	border: none;
 	border-bottom: 2px solid darkgreen;
 	height: 30px;	
@@ -67,7 +69,7 @@ div.logo {
 	outline: none;
 }
 
-.loginbox input {
+.loginbox input ,.signup input{
 	width: 100%;
 	margin-bottom: 20px;
 }
@@ -84,10 +86,16 @@ div.logo {
 
 .loginbox a {
 	text-decoration: none;
-	color: darkgreen;
-
+	color: black ; 
+	padding: 5px;
+	margin-bottom :30px;
 }
-.loginbox input[type="submit"] {
+
+.loginbox a:hover {
+	background: white;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"],.signup input[type="submit"] {
 	background-color: green;
 	border: none;
 	height: 35px;
@@ -101,4 +109,29 @@ div.logo {
 }
 .viewmap input[type="submit"]{
 	background-color: red;
+}
+
+.signup {
+	border-radius: 20px;
+	margin: 100px auto;
+	padding: 55px;
+	width:420px;
+	height: 850px;
+	background: rgba(0,255,0,0.1);
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border: 1px solid darkgreen;
+}
+
+.signup a{
+	text-decoration: none;
+	color: black;
+}
+
+.signup a:hover {
+	background: white;
+	border-radius: 20px;
 }

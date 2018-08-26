@@ -9,10 +9,12 @@
 <body>
 	<div class="logo">
 	</div>
+
+<!--Login-->
 	<div class="loginbox">
 		<img src="login.jpg" class="loginimage">
 		<h1>Login</h1>
-		<form name="myform" action="attendance.html"onsubmit="return validate()">
+		<form name="loginform" action="attendance.html"onsubmit="return validate()">
 			<p>Username or email</p>
 			<input type="text" name="userid"
 			placeholder="Enter username or email">
@@ -20,7 +22,8 @@
 			<input type="Password" name="passid"
 			placeholder="Enter Password">
 			<input type="Submit" name="login" value="Login">
-			<a href="#">Forgot password?</a>
+			<p><a href="signup.html">Dont have an account?</a></p>
+			<p><a href="#">Forgot password?</a></p>
 		</form>
 		<div class="viewmap">
 		<a href="map.html"><input type="submit" name="map" value="View College Map"></a>
@@ -32,8 +35,8 @@
 <!--script.js for validation-->
 	<script>
 		function validate() {
-			var x=document.forms["myform"]["userid"].value;
-			var y=document.forms["myform"]["passid"].value;
+			var x=document.forms["loginform"]["userid"].value;
+			var y=document.forms["loginform"]["passid"].value;
 			if(x=="") {
 				alert("Name must be filled out");
 				return false;

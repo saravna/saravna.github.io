@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(log.jpg);
+	background : linear-gradient(to bottom , yellow, green);
 	background-size: cover;
 	font-family: sans-serif; 
 }
@@ -34,7 +34,7 @@ div.logo {
 	color: darkgreen;
 }
 .container {
-	height: 700px;
+	height: 100%;
 	width: 1000px;
 	background-color: rgba(0,255,0,0.2);
 	margin:auto;
@@ -50,6 +50,11 @@ div.logo {
 	margin: 20px; 
 }
 
+
+table,th,td {
+	border: 1px solid black; 
+}
+
 input[type="submit"] {
 	width:60%;
 	border: none;
@@ -60,8 +65,13 @@ input[type="submit"] {
 	border-radius: 15px;
 	
 }
+input[type="checkbox"] {
+	width: 30px;
+	height: 30px;
+}
 
 input[type="submit"]:hover {
 	background-color: green;
 	cursor: pointer;
 }
+

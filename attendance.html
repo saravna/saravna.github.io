@@ -9,83 +9,110 @@
 	<div class="logo">
 	</div>
 	<div class="title"><h1>ATTENDANCE MANAGEMENT SYSTEM</h1></div>
-	<div class="container">
-		<form>
-			<table  class="signuptable" style="width: 70%; text-align: center;" cellpadding=0>
+	<div class="container"><center>
+		<form method="post" action="entry.php">
+
+			<table  class="signuptable" style="width: 70%; text-align: center;" cellpadding=5>
 				<tr>
 					<th>S.no</th><th>Attendance</th><th>Name</th>
 				</tr>
 				<tr>
 					<td>1.</td>
-					<td><input type="checkbox" name="list" class="list" value="saravana kumar"></td>
 					<td>Saravana Kumar</td>
+					<td><input type="radio" name="saravana" value="1" checked style="width: 10px">Present
+					<input type="radio" name="saravana" value="0" style="width: 10px">absent</td>
 				</tr>
 				<tr>
 					<td>2.</td>
-					<td><input type="checkbox" name="list" class="list" value="shanmuga sundar"></td>
 					<td>Shanmuga sundar</td>
+					<td><input type="radio" name="shanmuga" value="1" checked style="width: 10px">Present
+					<input type="radio" name="shanmuga" value="0" style="width: 10px">absent</td>
+					
 				</tr>
 				<tr>
 					<td>3.</td>
-					<td><input type="checkbox" name="list" class="list" value="subramanian"></td>
 					<td>Subramanian</td>
+					<td><input type="radio" name="subramanian" value="1" checked style="width: 10px">Present
+					<input type="radio" name="subramanian" value="0" style="width: 10px">absent</td>
+					
 				</tr>
 				<tr>
 					<td>4.</td>
-					<td><input type="checkbox" name="list" class="list" value="ranjith kumar"></td>
 					<td>Ranjith kumar</td>
+					<td><input type="radio" name="ranjith" value="1" checked style="width: 10px">Present
+					<input type="radio" name="ranjith" value="0" style="width: 10px">absent</td>
+				
 				</tr>
 				<tr>
 					<td>5.</td>
-					<td><input type="checkbox" name="list" class="list" value="ravi kumar"></td>
 					<td>Ravi kumar</td>
+					<td><input type="radio" name="ravi" value="1" checked style="width: 10px">Present
+					<input type="radio" name="ravi" value="0" style="width: 10px">absent</td>
+					
 				</tr>
 				<tr>
 					<td>6.</td>
-					<td><input type="checkbox" name="list" class="list" value="raj"></td>
 					<td>Raj</td>
+					<td><input type="radio" name="raj" value="1" checked style="width: 10px">Present
+					<input type="radio" name="raj" value="0" style="width: 10px">absent</td>
+					
 				</tr>
 				<tr>
 					<td>7.</td>
-					<td><input type="checkbox" name="list" class="list" value="surdeep"></td>
 					<td>Surdeep</td>
+					<td><input type="radio" name="surdeep" value="1" checked style="width: 10px">Present
+					<input type="radio" name="surdeep" value="0" style="width: 10px">absent</td>
+					
 				</tr>
 				<tr>
 					<td>8.</td>
-					<td><input type="checkbox" name="list" class="list" value="shabesh"></td>
 					<td>Shabesh</td>
+					<td><input type="radio" name="shabesh" value="1" checked style="width: 10px">Present
+					<input type="radio" name="shabesh" value="0" style="width: 10px">absent</td>
+					
 				</tr>
 				<tr>
 					<td>9.</td>
-					<td><input type="checkbox" name="list" class="list" value="yukesh"></td>
 					<td>Yukesh</td>
+					<td><input type="radio" name="yukesh" value="1" checked style="width: 10px">Present
+					<input type="radio" name="yukesh" value="0" style="width: 10px">absent</td>
+					
 				</tr>
 				<tr>
 					<td>10.</td>
-					<td><input type="checkbox" name="list" class="list" value="sivaselvan">
-					</td>
 					<td>Sivaselvan</td>
+					<td><input type="radio" name="sivaselvan" value="1" checked style="width: 10px">Present
+					<input type="radio" name="sivaselvan" value="0" style="width: 10px">absent</td>
+					
 				</tr>
 				<tr>
 					<td>11.</td>
-					<td><input type="checkbox" name="list" class="list" value="vijay"></td>
 					<td>Vijay</td>
+					<td><input type="radio" name="vijay" value="1" checked style="width: 10px">Present
+					<input type="radio" name="vijay" value="0" style="width: 10px">absent</td>
+					
 				</tr>
 				<tr>
 					<td>12.</td>
-					<td><input type="checkbox" name="list" class="list" value="sivaram"></td>
 					<td>Sivaram</td>
+					<td><input type="radio" name="sivaram" value="1" checked style="width: 10px">Present
+					<input type="radio" name="sivaram" value="0" style="width: 10px">absent</td>
+					
 				</tr>
 				<tr>
 					<td>13.</td>
-					<td><input type="checkbox" name="list" class="list" value="vignesh"></td>
 					<td>vignesh</td>
+					<td><input type="radio" name="vignesh" value="1" checked style="width: 10px">Present
+					<input type="radio" name="vignesh" value="0" style="width: 10px">absent</td>
+					
 				</tr>
 				
 			</table>
 			<input type="submit" name="submit" value="Submit entry">
-			<input type="submit" name="viewreport" value="View report">	
+				
 		</form>
+		<a href="report.php"><input type="submit" name="viewreport" value="View report"></a>
+	</center>
 	</div>
 
 </body>

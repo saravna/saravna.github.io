@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background : linear-gradient(to bottom , yellow, green);
+	background : radial-gradient(yellow, green);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: sans-serif; 
